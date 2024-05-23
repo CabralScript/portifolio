@@ -1,0 +1,373 @@
+@charset "UTF-8";
+
+/*Fontes Poppins (ignore)*/
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+/*Fim poppins*/
+
+/*Fonte Oswald*/
+
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+  
+/*Fim Oswald*/
+
+
+
+
+
+/*Cores*/
+:root{
+    --color1: #EBF6FC;
+    --color2: #19BBE0;
+    --color: #4D6774;
+}
+
+/*Estilo Geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    cursor: default;
+    
+}
+
+body{
+    background-color: #EBF6FC;
+    height: 100vh;
+    padding: 40px 4%;
+   
+    
+   
+}
+.laterais{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+   
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 90px;
+   
+}
+
+/*Cabeçalho*/
+header{
+    padding: 40px 4;
+   
+
+}
+h2.tt{
+    text-decoration: none;
+    cursor: default;
+    font-size: 38px;
+    text-align: center;
+}
+.span{
+    color: #19BBE0;
+}
+header > .laterais{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+.logo a img{
+    cursor : default;
+    
+}
+
+header a {
+    color: #4D6774;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    display: inline-block;
+    cursor: pointer;
+    
+    
+}
+
+header nav a:hover{
+    background-color: #19BBE0;
+    padding: 10px;
+    border-radius: 10px 20px;
+    transform: scale(1.05);
+    color: white;
+}
+
+header nav ul{
+    list-style-type: none;
+   
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    
+    
+}
+
+ .bcont button{
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 10px 20px;
+    border: none;
+    background-color: #19BBE0;
+    cursor: pointer;
+    font-weight: 700;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+ .bcont button:hover{
+   box-shadow: 0px 0px 8px #19BBE0;
+   transform: scale(1.05);
+
+}
+
+/*Modo Dark*/
+   .mododark{
+    background-color: transparent;
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px 20px;
+    margin: auto;
+    margin-top: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 3px 3px #19BBE0;
+
+   
+   }
+   #cursor{
+     cursor: pointer;
+   }
+   #claro{
+    border: none;
+    background-color: transparent;
+    width: 10px;
+    cursor: pointer;
+    font-size: large;
+    margin-right: 10px;
+    display: inline-block;
+   }
+   #escuro{
+    width: 10px;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    font-size: large;;
+    transition-duration: 0.5s;
+    display: inline-block;
+   }
+   #claro:hover{
+    transform: scale(1.18);
+   
+   }
+   #escuro:hover{
+    transform: scale(1.18);
+   }
+
+   .light-mode {
+    background-color: #EBF6FC;
+    color: #506775;
+    
+    
+}
+
+.light-mode a {
+    color: #506775;
+    
+}
+
+/* Estilos para o modo escuro */
+.dark-mode {
+    background-color: #506775;
+    color: #EBF6FC;
+}
+
+.dark-mode a {
+    color: #EBF6FC;
+}
+/*Fim modo dark*/
+
+/*Topo do site*/
+section .topodosite{
+    padding: 40px 4%;
+}
+section .topodosite .interface .flex{
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 90px;
+}
+.topodosite h1{
+    font-size: 42px;
+    font-weight: bolder;
+}
+.pont{
+    color: #19BBE0;
+   
+}
+.pontbloc{
+    display: block;
+    color: #19BBE0;
+}
+.txttop > p{
+    margin: 40px 0;
+}
+.txtjus{
+    text-align: justify;
+}
+
+/*Animações de imagem*/
+.topodosite .imgtop img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/*Estilo de espec*/
+section .espec{
+    padding: 40px 4%;
+   
+    
+}
+section .espec{
+    gap: 60px;
+}
+.espec .especbox{
+    padding: 40px;
+    display: inline-block;
+    margin-top: 45px;
+}
+
+
+div#w{
+    background-color: transparent;
+   
+   
+    box-shadow: 0px 8px 10px #19BBE0;
+    border-radius: 10px 20px;
+    margin-right: 7px;
+    text-align: justify;
+    display: inline-block;
+    
+    
+}
+div#L{
+    background-color: transparent;
+    display: inline-block;
+   
+    box-shadow: 0px 8px 10px #19BBE0;
+    border-radius: 10px 20px;
+    margin-right: 7px;
+    text-align: justify;
+    
+    
+   
+}
+div#B{
+    background-color: transparent;
+    text-align: justify;
+    display: inline-block;
+    box-shadow: 0px 8px 10px #19BBE0;
+    border-radius: 10px 20px;
+    
+    
+    
+}
+.espec .especbox i{
+  font-size: 70px;
+  color: #19BBE0;
+  
+
+}
+.espec .especbox h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/*sobre*/
+section.sobre{
+padding: 80 4;
+margin-top: 50px;
+}
+section.sobre.flex{
+    gap: 60px;
+}
+#pers{
+    align-items: center;
+    display: inline-block;
+}
+.txt-sobre{
+    align-items: center;
+    text-align: justify;
+    display: inline-block;
+    justify-content: center;
+    
+    
+}
+.txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+}
+.h2sobre{
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.spsobre{
+    color: #19BBE0;
+    display: block;
+}
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #19BBE0;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 7px;
+    transition: 0.5s;
+}
+.btn-social button:hover{
+    box-shadow: 0px 0px 8px #19BBE0;
+    transform: scale(1.05);
+}
+#soc{
+    cursor: pointer;
+}

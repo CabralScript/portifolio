@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.star.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <!--Fontes Cabeçalho-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!--Fim-->
+
+    <!--Fontes Gerais-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Fim-->
+    <!--Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fim-->
+
+    <!--icons bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--fim-->
+    <title>CabralScript</title>
+</head>
+<body class="light-mode">
+    <header>
+        <div class="laterais">
+            <div class="logo">
+              <a href="#">
+                <img src="img/logo3semfundo.png" alt="logo do CabralScript" style="width: 200px;">
+              </a>
+              <div class="mododark">
+                <button type="button" onclick="claro()" id="claro">
+                    <i class="fa-solid fa-sun" id="cursor"></i>
+                </button>
+                <button type="button" onclick="escuro()" id="escuro">
+                    <i class="fa-solid fa-moon" id="cursor"></i>
+                </button>
+              </div><!--mododark-->
+            </div><!--logo-->
+            <nav class="menu.desk">
+               <ul id="bt">
+                <li>
+                    <a href="#">Início</a>
+                </li>
+                <li>
+                    <a href="#" >Especialidades</a>
+                </li>
+                <li>
+                    <a href="#" >Sobre</a>
+                </li>
+                <li>
+                    <a href="#" >Projetos</a>
+                </li>
+               </ul>
+            </nav><!--menu-->
+            <div class="bcont">
+                <a href="#">
+                    <button>
+                        Contato
+                    </button>
+                </a>
+
+            </div><!--Contato-->
+        </div><!--laterais-->
+    </header>
+
+    <main>
+        <section class="topodosite">
+           <div class="interface">
+                <div class="flex">
+                      <div class="txttop">
+                          <h1>
+                            Precisa de um site profissional?<span class="pontbloc">Vamos criar algo incrível juntos!</span>
+                          </h1>
+                          <p class="txtjus">
+                            Seja para um negócio, um blog pessoal ou uma loja online, eu posso ajudar a transformar suas ideias em realidade. Com experiência em design moderno e tecnologias de ponta, seu site será visualmente atraente, fácil de usar e otimizado para todos os dispositivos. Vamos conversar sobre o que você precisa<span class="pont">?</span>
+                          </p>
+
+                          <div class="bcont">
+                            <a href="#">
+                                <button>
+                                    Entre em contato
+                                </button>
+                          </div><!--bcont2-->
+                      </div><!--top-->
+
+
+                      <div class="imgtop">
+                         <img src="img/personagem.cs.jpeg" alt="" style="width: 350px; border-radius: 60px 70px 40px 140px; box-shadow: 5px 5px 5px #19BBE0;" >
+                      </div><!--imgtop-->
+                </div><!--flex-->
+           </div> <!--Interface-->
+        </section> <!--tododosite-->
+
+        <section class="espec">
+            <div class="interface">
+              <h2 class="tt">
+                MINHAS <span class="span">ESPECIALIDADES.</span>
+              </h2>
+             <div class="flex">
+
+                <div class="especbox" id="w">
+
+                    <i class="bi bi-code-square"></i>
+                    <h3>
+                        Website
+                    </h3>
+                    <p>No mundo digital de hoje, ter um site profissional é crucial para o sucesso de qualquer negócio. Um site bem projetado e funcional não apenas serve como sua vitrine online, mas também pode ser uma ferramenta poderosa para atrair novos clientes, gerar leads e aumentar suas vendas.</p>
+                </div><!--especbox-->
+                
+                <div class="especbox" id="L">
+
+                    <i class="bi bi-cart"></i>
+                    <h3>
+                        Loja online
+                    </h3>
+                    <p>Uma loja online é um portal de compras virtual onde você pode vender seus produtos ou serviços para clientes em todo o mundo. Com uma loja online bem estruturada e fácil de navegar, você pode expandir seu alcance, aumentar suas vendas e alcançar novos mercados.</p>
+                </div><!--especbox-->
+                
+                <div class="especbox" id="B">
+
+                    <i class="bi bi-wordpress"></i>
+                    <h3>
+                        Blog
+                    </h3>
+                    <p>Um blog é uma plataforma digital onde você pode compartilhar conteúdo informativo e interessante com seu público-alvo. Através de posts regulares sobre temas relevantes para o seu setor, você pode estabelecer sua empresa como uma autoridade em seu nicho, atrair tráfego para seu site e construir relacionamentos duradouros com seus clientes.</p>
+                </div><!--especbox-->
+             </div><!--flexx-->
+
+            </div><!--interface de espec-->
+        </section><!--espec-->
+
+        <section class="sobre">
+          <div class="interface">
+           <div class="flex">
+             <div class="img-sobre">
+                 <img  src="img/personagem3.jpeg" alt="" style="width: 350px; border-radius: 10px 20px; margin-top: 50px; cursor: default;" id="pers" >
+             </div><!--imgsobre-->
+             <div class="txt-sobre">
+                <h2 class="h2sobre">
+                    MUITO PRAZER, <span class="spsobre">SOU DAVI CABRAL.</span>
+                </h2>
+                <p>Olá, sou um desenvolvedor front-end de 18 anos especializado em HTML, CSS, JavaScript, React e React Native. Tenho experiência criando sites para todo tipo de negócio, sempre focando em design responsivo e interfaces intuitivas. Adoro ajudar empreendedores a dar vida às suas ideias no mundo digital<span class="pont">.</span></p>
+                <br>
+
+               <p>Minha missão é construir experiências digitais incríveis que sejam funcionais e visualmente atraentes. Se você está procurando um parceiro para criar seu próximo site, estou aqui para colaborar. Vamos conversar e transformar sua visão em realidade<span class="pont">!</span></p>
+               <div class="btn-social">
+                <a href="#" target="_blank" rel="external">
+                    <button><i class="bi bi-instagram" id="soc"></i></button>
+                </a>
+                <a href="https://github.com/CabralScript" target="_blank" rel="external">
+                    <button><i class="bi bi-github" id="soc"></i></button>
+                </a>
+                <a href="#" target="_blank" rel="external">
+                    <button><i class="bi bi-linkedin" id="soc"></i></button>
+                </a>
+               </div><!--btnsocial-->
+
+
+             </div><!--sobretxt-->
+           </div><!--flexx-->
+          </div>
+        </section><!--sobre-->
+    </main>
+
+
+
+
+<script src="java.js/java.js"></script>
+</body>
+</html>
